@@ -1,12 +1,4 @@
 # ProtoASNet
-
-> **ProtoASNet: Dynamic Prototypes for Inherently Interpretable and Uncertainty-Aware Aortic Stenosis Classification in Echocardiography**              
-> Hooman Vaseli*, Ang Nan Gu*, S. Neda Ahmadi Amiri*, Michael Y. Tsang*, Andrea Fung, Nima Kondori, Armin Saadat, Purang Abolmaesumi, Teresa S. M. Tsang </br>
-> (*Equal Contribution) </br> 
-> **Published in MICCAI 2023** </br> 
-> [Springer Link](https://link.springer.com/chapter/10.1007/978-3-031-43987-2_36) </br> 
-> [arXiv Link](https://arxiv.org/abs/2307.14433) 
-
 --------------------------------------------------------------------------------------------------------
 ## Contents
 - [Introduction](#Introduction)
@@ -30,9 +22,9 @@ ProtoASNet: Dynamic Prototypes for Inherently Interpretable and Uncertainty-Awar
 git clone https://github.com/Tugcannn/ProtoAsNet.git
 cd ProtoASNet
 ```
-2. Place your data in the `data` folder. Download Ultrasound dataset and put inside 'data' folder https://drive.google.com/drive/my-drive ,
+2. Place your data in the `data` folder. Download Ultrasound dataset and put it inside 'data' folder, [Link is here](https://drive.google.com/drive/folders/18Pzqy-Zy3_aPRwAVp5UT9GYoLpXTK2rv?usp=sharing)
 
-3. Also, we already trained bloodmnist model for 3-5-10 prototypes. Also you can find in driver and put inside 'logs/Image_ProtoAsNet'
+3. Also, we already trained Bloodmnist model for 3-5-10 prototypes. Also, you can find in the driver and put it inside 'logs/Image_ProtoAsNet' [Link is here](https://drive.google.com/drive/folders/189V5SGVvBsm-8idoU-XEFwRcFXDbgvmQ?usp=sharing)
 
 4. Python library dependencies can be installed using:
 
@@ -46,7 +38,6 @@ python -c "import torch; print(torch.__version__)"
 python -c "import torch; print(torch.version.cuda)"
 ```
 
-4. 
 
 --------------------------------------------------------------------------------------------------------
 ## Train and Test
@@ -112,21 +103,4 @@ When training is done for the first time, pretrained backbone models are saved h
 - `utils/`: folder for some utility scripts and local explanation 
 
 
---------------------------------------------------------------------------------------------------------
 
-## Citation
-If you find this work useful in your research, please cite:
-```
-@InProceedings{10.1007/978-3-031-43987-2_36,
-author="Vaseli, Hooman and Gu, Ang Nan and Ahmadi Amiri, S. Neda and Tsang, Michael Y. and Fung, Andrea and Kondori, Nima and Saadat, Armin and Abolmaesumi, Purang and Tsang, Teresa S. M.",
-editor="Greenspan, Hayit and Madabhushi, Anant and Mousavi, Parvin and Salcudean, Septimiu
-and Duncan, James and Syeda-Mahmood, Tanveer and Taylor, Russell",
-title="ProtoASNet: Dynamic Prototypes for Inherently Interpretable and Uncertainty-Aware Aortic Stenosis Classification in Echocardiography",
-booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023",
-year="2023",
-publisher="Springer Nature Switzerland",
-address="Cham",
-pages="368--378",
-isbn="978-3-031-43987-2"
-}
-```
