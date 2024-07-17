@@ -5,7 +5,6 @@
 - [Environment Setup](#Environment-Setup)
 - [Train and Test](#Train-and-Test)
 - [Description of Files and Folders](#Description-of-Files-and-Folders)
-- [Citation](#Citation)
 
 
 ## Introduction 
